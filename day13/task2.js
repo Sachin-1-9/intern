@@ -1,0 +1,10 @@
+let a=["hello"];
+let b=["World","this","is","JavaScript"];
+let c=a.concat(b);
+c.splice(3,0,"language");
+console.log(c);
+nu=[4,5,2,1,9];
+console.log(nu.sort());
+let found=c.includes("is");
+console.log(found);
+console.log(c.indexOf("this"));
